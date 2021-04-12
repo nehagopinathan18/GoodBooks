@@ -5,6 +5,10 @@
   padding: 8rem;
   background-color: beige;
 }
+.title {
+  font-size: 2rem;
+  font-weight: 750;
+}
 .selectionTabs {
   padding: 0.5rem;
   margin: 1rem 0.5rem;

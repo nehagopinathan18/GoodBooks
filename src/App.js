@@ -37,7 +37,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1> 📚 Good Books Read</h1>
+      <span className="title"> 📚 Good Books Read</span>
       <p>Checkout my favorite books. Select a genre to get started </p>
       <div>
         {Object.keys(bookDB).map((item) => (
