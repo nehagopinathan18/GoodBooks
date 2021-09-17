@@ -1,9 +1,14 @@
 import "./styles.css";
 import { useState } from "react";
 const bookDB = {
-  Javascript: [
+    Javascript: [
     { name: "Eloquent JavaScript", rating: "4/5" },
-    { name: "You Don't Know JS", rating: "3.5/5" }
+    { name: "You Don't Know JS", rating: "3.5/5" },
+    {
+      name:
+        "JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language 7th Edition ",
+      rating: "3/5"
+    }
   ],
 
   Fiction: [
@@ -14,6 +19,10 @@ const bookDB = {
     {
       name: "Harry Potter and the Sorcerer's Stone",
       rating: "4.5/5"
+    },
+    {
+      name: "Atomic Habits",
+      rating: "5/5"
     }
   ],
   Business: [
@@ -23,6 +32,10 @@ const bookDB = {
     },
     {
       name: "Loonshots",
+      rating: "5/5"
+    },
+    {
+      name: "Rich Dad and Poor Dad",
       rating: "5/5"
     }
   ]
